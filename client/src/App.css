@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+
+.rectangle {
+  max-width: 459.59px;
+  height: 403.66px;
+  position: relative;
+  top: 150.65px;
+  left: 811.5px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, rgba(16, 60, 190, 0.68) 0%, rgba(45, 201, 240, 0.85) 100%);
+  border-top-left-radius: 90%;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+
+.frames {
+  position: relative;
+}
+
+.frame1 {
+  width: 267px;
+  height: 56px;
+  position: absolute;
+  top: 86px;
+  left: -30px;
+  padding: 12px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 16px 0px 0px 16px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #1140BF;
+  background: rgba(184, 216, 224, 0.85);
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+}
+
+
+.frame2 {
+  width: 267px;
+  height: 56px;
+  position: absolute;
+  top: 186px;
+  left: -60px;
+  padding: 12px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 16px 0px 0px 16px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #1140BF;
+  background: rgba(184, 216, 224, 0.85);
+  display: flex;
+}
+
+.frame3 {
+  width: 290px;
+  height: 56px;
+  position: absolute;
+  top: 286px;
+  left: -90px;
+  padding: 12px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 16px 0px 0px 16px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #1140BF;
+  background-color: rgba(184, 216, 224, 0.85);
+  display: flex;
+}
+
+.group {
+  height: 36px;
+  width: 36px;
+  background-color: rgba(45, 201, 240, 0.85);
+  border-radius: 10px;
+  margin-left: 1.1rem;
+}
+
+.circle {
+  width: 22.5px;
+  height: 22.5px;
+  position: absolute;
+  top: 1.1rem;
+  left: 21.56px;
+  padding: 1.41px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.frame-text {
+  font-size: 1.1rem;
+}
+
+.frame2-icon {
+  margin-left: 0.4rem;
+  position: absolute;
+  top: 16px;
+  font-size: 1.1rem;
+}
+
+.frame3-icon {
+  margin-left: 0.4rem;
+  position: absolute;
+  top: 16px;
+  font-size: 1.1rem;
+}
+
+.doc-logo {
+  width: 500.28px;
+  height: 527.3px;
+  position: absolute;
+  top: -62px;
+  left: -20px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 999;
+  margin-left: 1rem;
+}
